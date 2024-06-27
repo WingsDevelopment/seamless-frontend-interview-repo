@@ -7,7 +7,7 @@ interface TokenPriceInfo {
   };
 }
 
-export const getPrice = async (): Promise<TokenPriceInfo | null> => {
+export const getEthereumPrice = async (): Promise<TokenPriceInfo | null> => {
   const options = {
     method: "GET",
     headers: {
@@ -34,7 +34,7 @@ export const getPrice = async (): Promise<TokenPriceInfo | null> => {
 export const useEthereumPrice = () => {
   return useQuery<TokenPriceInfo | null, Error>({
     queryKey: ["ethereumPrice"],
-    queryFn: getPrice,
+    queryFn: getEthereumPrice,
     staleTime: 60 * 60 * 1000,
   });
 };
