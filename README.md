@@ -31,3 +31,7 @@ Add tenderly RPC to metamask:
 ### getEthereumPrice file explained
 
 The getEthereumPrice file contains URL and options for fetching price of ethereum from coingecko.
+
+### config/constants file explained
+
+The config/constants file contains ABI and address of a seamless landing pool.
