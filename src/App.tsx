@@ -1,6 +1,5 @@
 import { formatUnits } from "viem";
 import { useAccount, useBalance, useConnect, useDisconnect } from "wagmi";
-import { useEthereumPrice } from "./getEthereumPrice";
 
 function App() {
   const account = useAccount();
@@ -9,8 +8,6 @@ function App() {
   const { data: ethBalance } = useBalance({
     address: account.address,
   });
-  const { data } = useEthereumPrice();
-  console.log({ data });
 
   return (
     <>
