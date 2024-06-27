@@ -23,15 +23,15 @@ bash:
 
 This will start the development server and open the application in your default web browser at http://localhost:5174.
 
-### Tenderly rpc setup
+## Tenderly rpc setup
 
 Add tenderly RPC to metamask:
 `https://rpc.tenderly.co/fork/ee8745ab-c52c-4359-8b3a-4e46ffe15c27`
 
-### getEthereumPrice file explained
+## getEthereumPrice file explained
 
 The getEthereumPrice file contains URL and options for fetching price of ethereum from coingecko.
 
-### config/constants file explained
+## config/constants file explained
 
 The config/constants file contains ABI and address of a seamless landing pool.
