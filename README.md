@@ -30,7 +30,7 @@ This will start the development server and open the application in your default 
 ## Tenderly rpc setup
 
 Add tenderly RPC to metamask:
-`https://rpc.tenderly.co/fork/ee8745ab-c52c-4359-8b3a-4e46ffe15c27`
+`[https://rpc.tenderly.co/fork/ee8745ab-c52c-4359-8b3a-4e46ffe15c27](https://virtual.base.rpc.tenderly.co/ba9029c1-4d06-4d7c-8e10-f148cb7334cd)`
 <br />
 
 ## getEthereumPrice file explained
