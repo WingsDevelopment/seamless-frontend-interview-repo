@@ -32,12 +32,3 @@ This will start the development server and open the application in your default 
 Add tenderly RPC to metamask:
 `https://virtual.base.rpc.tenderly.co/ba9029c1-4d06-4d7c-8e10-f148cb7334cd`
 <br />
-
-## getEthereumPrice file explained
-
-The getEthereumPrice file contains URL and options for fetching price of ethereum from coingecko.
-<br />
-
-## config/constants file explained
-
-The config/constants file contains ABI and address of a seamless landing pool.
